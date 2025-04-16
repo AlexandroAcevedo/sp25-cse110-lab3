@@ -7,12 +7,43 @@
     <meta name="keywords" content="HTML">
     <meta name="author" content="Alexandro Acevedo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link>
+    <link rel="icon" href="favicon-16x16.png" type="image/png">
   </head>
   <body>
-    <h1>Agenda</h1>
+    <nav>
+    <ol>
+      <li><a href="#mStat">Mission Statement</a></li>
+      <li><a href="#g2team">Getting to Know the Team</a></li>
+      <li><a href="p2b">Gaming Time!</a></li>
+    </ol>
+    <header>
+      <h1>Team Black Hat White Hat Meeting 1 - Alexandro Acevedo -Aspiring Software Developer</h1>
+    </header>
+    <details>
+      <summary>Team2Minutes</summary>
+      <p>CSE110 team 2's meeting minutes written in HTML featuring several HTML tags.</p>
+    </details>
+    <main>
+      <h2>Document Fax</h2>
+      <p>
+        This document will serve as a guide to develop our meeting minute format and establish a
+        general mission statement to provide users and investors a general idea of our moto.
+        In this document specifically, we aim to get our company started and formulate a template.  
+      </p>
+    </main>
+    <section id="mStat">
+      <h2>Mission Statement</h2>
+      <hr>
+      <p>
+        Team Black Hat White Hat is a dedicated team to develop software that is designed and
+        tested for our dedicated users. We are dedicated to ensuring high quality products are
+        delivered to our users so that they'll have a wonderful experience utilizng our websites. 
+      </p>
+    </section>
+    
     <div class="topics-to-cover">
-      <h4>Topics to Cover:</h4>
+      <h3>Topics to Cover:</h3>
+      <hr>
       <ul>
         <li>Get to know team names</li>
         <li>Play several games to bond</li>
@@ -20,5 +51,90 @@
         <li>Delegate tasks for team video(editors,recorders,theme)</li>
       </ul>
     </div>
+    <section id="g2team">
+      <h2>Getting to Know the Team!</h2>
+      <hr>
+      <p>
+        At the start of the metting, the team took turns introducing themselves with each other
+        to apply faces to names. We gave our name, major+year, and a hobby.<b>2</b>members <strong>couldn't attend.</strong>
+        We then had a few bits of small talk discussing our classes and schedules.
+      </p>
+    </section>
+    <section id="p2b">
+      <h2>Gaming time!</h2>
+      <hr>
+      <p>
+        We deicide to play several games such as <i>BombParty</i> and Skribbl. A lot of our members seemed to
+        enjoy BombParty as there were <em>explosive and excited</em> reactions to securing a word with seemingly
+        impossible letters. 
+      </p>
+    </section>
+    <section id="b$trm">
+      <h2>Brainstorming Branding</h2>
+      <hr>
+      <p>
+        After bonding with the team, we set out to get a general idea of what our team branding shold be.
+        We discussed first our team mascot and although there was some trouble, we managed to decide on a panda.
+        Then this led to our team name being Black Hat White Hat, refering to hackers. This led to development of our
+        logo made by Vivian. <img src="Team2Logo.png" alt="Team Logo" width="366" height="410">   
+      </p>
+      <hr>
+      <p>
+        This lead to deciding on our theme. Some of the words that popped up were
+        Mysterious <br>
+        Sleuth <br>
+        Professional <br>
+        Humor <br>
+        We decided to have a mix of professionalism and humor as can be seen with the audio
+        <audio controls>
+          <source src="sillyAudio.mp3" type="audio/mpeg">
+          Your browser doesn't support the audio clip.
+        </audio>
+      </p>
+    <section id="video">
+      <h2>Team Video Plan</h2>
+      <hr>
+      <p>
+        After securing a base for our team branding, we then went on to discuss the team video
+        for the rest of the meeting. We didn't have anyone with prior experience but Alex(me) 
+        volunteered to learn and compile the video together. We decided to do a mini talent show
+        to showcase a bit of each team member's personality. This is the completed video. 
+      </p>
+      <video width="1280" height="720" controls>
+        <source src="Team2Vid.mp4" type="video/mp4">
+        Browser doesn't support video tag
+      </video>
+    <footer>
+      <p>&copy; <span style="color:red">2025</span> Black Hat White Hat</p>
+    </footer>
+    <form>
+      <p><label>User Name: <input></label></p>
+      <datalist id="usernames">
+        <option value="IceCreamLover42">
+        <option value="SigmaSlurper">
+        <option value="VanillaVibes">
+        <option value="SprinkleMaster">
+        <option value="PowellBerrySupreme">
+      </datalist>
+      <fieldset>
+        <legend> Favorite Ice Cream Flavor </legend>
+        <p><label> <input type=radio name=flavor> Choco </label></p>
+        <p><label> <input type=radio name=flavor> Vanilla </label></p>
+        <p><label> <input type=radio name=flavor> Sigma </label></p>
+      </fieldset>
+      <fieldset>
+        <legend>How do you spell Sigma?</legend>
+        <p><label> I spell sigma like: <input type="text" sigma="sigma-spelling" </label></p>
+      </fieldset>
+      <fieldset>
+        <legend> Goated Toppings </legend>
+        <p><label> <input type=checkbox> Sprinkles :3 </label></p>
+        <p><label> <input type=checkbox> KitKats </label></p>
+        <p><label> <input type=checkbox> Caramel Sauce </label></p>
+        <p><label> <input type=checkbox> Souls of the Innocent </label></p>
+      </fieldset>
+      <p><label><input type=date> </label></p>
+      <p><label>Flavors that you think are peak: <textarea></textarea></label></p>
+      <p><button>Submit form</button></p>
   </body>
 </html>
