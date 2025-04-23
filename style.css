@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: var(--main-bg);
+  background-color: #ffe6f0; /* a soft light pink */
   color: var(--primary-color);
   font-family: var(--font-stack), Arial, sans-serif;
   margin: 0;
@@ -18,7 +18,7 @@ body {
 
 /* --- Text & Link Styling --- */
 h1, h2, h3 {
-  color: color-mix(in srgb, #000 70%, orange 30%);
+  color: color-mix(in srgb, cyan 60%, midnightblue 40%);
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ p, li {
 
 a {
   text-decoration: underline;
-  color: orange;
+  color: blue;
 }
 
 a:hover {
@@ -96,9 +96,10 @@ img {
 }
 
 video {
-  width: 80%;
-  height: auto;
+  display: block;
+  margin: 1rem auto;
   max-width: 100%;
+  height: auto;
   border: 2px solid black;
 }
 
