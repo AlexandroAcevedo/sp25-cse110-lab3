@@ -150,7 +150,7 @@ button:hover {
   background-color: lightblue;
 }
 
-/* New Nested Selector Syntax (2023 spec, works with modern tools) */
+/* New Nested Selector Syntax (2023 spec) */
 @layer base {
   nav {
     & > ol {
@@ -167,7 +167,7 @@ button:hover {
   box-sizing: border-box;
 }
 
-/* Media Query for Responsiveness */
+/* Media Query  */
 @media (max-width: 768px) {
   body {
     font-size: 0.9rem;
