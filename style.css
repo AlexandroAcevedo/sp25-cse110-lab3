@@ -41,6 +41,7 @@ a:active {
 
 /* --- Layout & Containers --- */
 main, section, .topics-to-cover {
+  background-color: #ffffff; 
   padding: 1em 2em;
   margin: 2rem auto;
   border: 2px solid var(--accent-color, var(--fallback-accent));
